@@ -2,8 +2,8 @@
   "skill": "snow-avalanche-susceptibility",
   "skill_version": "1.0.0",
   "command": "snow-avalanche-susceptibility --bbox 90 30 91 31 --synthetic --output-dir ./_test_cli_out --quiet",
-  "started_at": "2026-08-03T13:38:26.716325Z",
-  "finished_at": "2026-08-03T13:38:27.530811Z",
+  "started_at": "2026-11-02T15:44:54.229843Z",
+  "finished_at": "2026-11-02T15:44:54.421475Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -19,7 +19,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_out\\susceptibility.tif",
+      "path": "./_test_cli_out/susceptibility.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -36,7 +36,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\susceptibility_level.tif",
+      "path": "./_test_cli_out/susceptibility_level.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -53,7 +53,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\avalanche_params.json",
+      "path": "./_test_cli_out/avalanche_params.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -76,7 +76,7 @@
     "high_plus_fraction": 0.679443359375
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "snow-avalanche-susceptibility"
   },
   "error": null
